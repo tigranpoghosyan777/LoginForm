@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f4f6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.social-login {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url('sprite.png'); 
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.facebook-icon {
+    width: 30px;
+    height: 30px;
+    background: url('sprite.png') no-repeat;
+    background-position: 2px -34px; 
+}
+
+.user-icon {
+    width: 20px;
+    height: 30px;
+    background: url('sprite.png') no-repeat;
+    background-position: -37px 0; 
+}
+
+.lock-icon {
+    width: 30x;
+    height: 30px;
+    background: url('sprite.png') no-repeat;
+    background-position: -6px 0; 
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.login-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #555;
+}
